@@ -537,10 +537,10 @@ void insertInternal(Indice x, Node* cursor, Node* child) {
         newInternal->key[1].rrn = -1;
         newInternal->key[2].rrn = -1;
         newInternal->key[3].rrn = -1;
-        strcpy(newInternal->key[0].chave,"....");
-        strcpy(newInternal->key[1].chave,"....");
-        strcpy(newInternal->key[2].chave,"....");
-        strcpy(newInternal->key[3].chave,"....");
+        strcpy(newInternal->key[0].chave,".....");
+        strcpy(newInternal->key[1].chave,".....");
+        strcpy(newInternal->key[2].chave,".....");
+        strcpy(newInternal->key[3].chave,".....");
         newInternal->prox = -1;
 
         // Crie um nó interno virtual
@@ -624,10 +624,10 @@ void insertInternal(Indice x, Node* cursor, Node* child) {
             newRoot->key[1].rrn = -1;
             newRoot->key[2].rrn = -1;
             newRoot->key[3].rrn = -1;
-            strcpy(newRoot->key[0].chave,"....");
-            strcpy(newRoot->key[1].chave,"....");
-            strcpy(newRoot->key[2].chave,"....");
-            strcpy(newRoot->key[3].chave,"....");
+            strcpy(newRoot->key[0].chave,".....");
+            strcpy(newRoot->key[1].chave,".....");
+            strcpy(newRoot->key[2].chave,".....");
+            strcpy(newRoot->key[3].chave,".....");
             newRoot->prox = -1;
 
             newRoot->key[0] = cursor->key[cursor->size];
@@ -722,10 +722,10 @@ void insereArvore(Indice ind) {
         newLeaf->key[1].rrn = -1;
         newLeaf->key[2].rrn = -1;
         newLeaf->key[3].rrn = -1;
-        strcpy(newLeaf->key[0].chave,"....");
-        strcpy(newLeaf->key[1].chave,"....");
-        strcpy(newLeaf->key[2].chave,"....");
-        strcpy(newLeaf->key[3].chave,"....");
+        strcpy(newLeaf->key[0].chave,".....");
+        strcpy(newLeaf->key[1].chave,".....");
+        strcpy(newLeaf->key[2].chave,".....");
+        strcpy(newLeaf->key[3].chave,".....");
         newLeaf->prox = -1;
 
         Indice virtualNode[MAX + 1];
@@ -795,10 +795,10 @@ void insereArvore(Indice ind) {
             newRoot->key[1].rrn = -1;
             newRoot->key[2].rrn = -1;
             newRoot->key[3].rrn = -1;
-            strcpy(newRoot->key[0].chave,"....");
-            strcpy(newRoot->key[1].chave,"....");
-            strcpy(newRoot->key[2].chave,"....");
-            strcpy(newRoot->key[3].chave,"....");
+            strcpy(newRoot->key[0].chave,".....");
+            strcpy(newRoot->key[1].chave,".....");
+            strcpy(newRoot->key[2].chave,".....");
+            strcpy(newRoot->key[3].chave,".....");
             newRoot->prox = -1;
 
             newRoot->key[0] = newLeaf->key[0];
