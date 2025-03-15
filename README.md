@@ -63,7 +63,7 @@ Select the desired operation by entering the corresponding number.
 - Improve **error handling and logging**.
 
 ---
-**Author**: Your Name  
+**Author**: Otávio Augusto Teixeira
 **Language**: C  
 **License**: MIT  
 
